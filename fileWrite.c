@@ -4,7 +4,7 @@ int main(void){
 	
 	FILE* fp; //declare FILE pointer fp
 	
-	fp = fopen("newFile.txt","wt"); // create file "newFile" with write_text mode
+	fp = fopen("newFile.txt","wt"); // create file "newFile" with write_text mode, overWrite
 	
 	fprintf(fp,"Hello World!! number is %d...",20);
 	
